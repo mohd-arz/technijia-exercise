@@ -28,13 +28,13 @@ a:hover{
     margin-bottom: 1rem;
 }
 .heading-right-container  h4{
-    margin-left: 5%;
+    margin-left: 3rem;
 }
 
 /* Search */
 .search-bar{
     position: relative;
-    padding-right: 1rem;
+
 }
 .search-icon{
     position:absolute;
@@ -46,13 +46,13 @@ a:hover{
     padding: 8px 1.8rem;
     border-radius:10px;
     border: solid 1px #aaadaa;
-    min-width:80%;
+    min-width:200px;
 
 }
 .search-button{
     padding:4px;
     position: absolute;
-    left:210px;
+    left:220px;
     bottom: 4px;
     border-radius: 50%;
     border: solid 1px transparent;
