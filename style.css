@@ -1,0 +1,274 @@
+*{
+    margin:0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: 'Lato', sans-serif;
+}
+/* Setting Global a tag's color to black and text-dec to non */
+a{
+    text-decoration: none;
+    color:black;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+/* Header */
+.header{
+    background-color: rgba(48,141,60,255);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 1rem 2rem 1rem;
+}
+.heading-right-above-container{
+    display: flex;
+    gap:1rem;
+    margin-bottom: 1rem;
+}
+.heading-right-container  h4{
+    margin-left: 5%;
+}
+
+/* Search */
+.search-bar{
+    position: relative;
+    padding-right: 1rem;
+}
+.search-icon{
+    position:absolute;
+    top:10px;
+    left:8px;
+    color: #aaadaa;
+}
+.search-input{
+    padding: 8px 1.8rem;
+    border-radius:10px;
+    border: solid 1px #aaadaa;
+    min-width:80%;
+
+}
+.search-button{
+    padding:4px;
+    position: absolute;
+    left:210px;
+    bottom: 4px;
+    border-radius: 50%;
+    border: solid 1px transparent;
+    background-color: rgb(48,141,60,255);
+    color: white;
+}
+.sign-up{
+    padding-top: 6px;
+    color:white;
+    display: inline-block;
+    min-width: 80px;
+    text-align: center;
+}
+.heading{
+    padding-top: 1rem;
+    font-weight: 300;
+}
+
+
+/* Nav */
+.nav-container{
+    padding:  1em;
+    display: flex;
+    gap:8px;
+    flex-wrap: wrap;
+    background-color: #21481c;
+}
+.nav-container > a{
+    padding: 1rem;
+    color: white;
+}
+.home{
+    background-color: #aaadaa;
+}
+
+
+/* Messages */
+.messages-container{
+    display: flex;
+    padding: 2rem 1rem;
+}
+.message-left-container{
+    display: flex;
+    flex:1;
+    align-items: center;
+}
+.message-right-container  img{
+    width: 120px;
+    border:solid 1px #aaadaa;
+    margin-right: 2rem;
+}
+
+.message-heading{
+    padding: 1em;
+    color:rgba(48,141,60,255);
+    border-right: solid #aaadaa;
+}
+.message-text{
+    padding-left:8px;
+}
+.message-text a{
+    color:rgba(48,141,60,255);
+}
+
+
+
+/* Main */
+.main-container{
+
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    padding:0 1rem;
+    border-top: solid 2px #aaadaa;
+}
+
+/* Main Left Section */
+.main-left > div{
+    height: 15%;
+    padding:2rem 0;
+    border-top: solid 2px #aaadaa;
+}
+.bible-verse{
+    margin-top: 1rem;
+}
+.activities > p ,.bible-verse > blockquote{
+    font-size: small;
+}
+cite{
+    font-weight: bolder;
+}
+.main-left h3{
+    color:#318c3d;
+    padding-bottom: 1rem;
+}
+.main-left a{
+    color:#707070;
+}
+hr{
+    color:#bbb9b9
+}
+
+/* Main Mid Section */
+.main-mid{
+    border-left:solid 2px #aaadaa;
+    border-right:solid 2px #aaadaa;
+    padding:0 1rem;
+    margin:0 .5rem;
+}
+.main-notes{
+    margin:0 auto;
+    padding:1rem 1rem;
+    text-align: justify;
+}
+.main-notes > h2{
+    text-align: center;
+    color:#318c3d;
+    padding-bottom: 8px;
+    text-decoration: underline;
+}
+.latest-sermons{
+    padding:1rem;
+}
+.latest-sermons > h3, .latest-sermons > a{
+    color:#318c3d;
+    padding:8px 0;
+    text-align: center;
+}
+
+.gospel-stories{
+    padding:1rem;
+}
+.stories  img{
+    width:90%;
+
+    display: block;
+}
+.stories{
+    display: flex;
+}
+.stories a , .gospel-stories h3{
+    color:#318c3d;
+    padding: 8px 0;
+}
+
+/* Main Right */
+
+.newsletter{
+    padding: 1rem;
+    border-bottom: solid 1px #aaadaa;
+}
+.newsletter > h3{
+    color: #318c3d;
+    margin-bottom: 1rem;
+}
+.newsletter-field{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.newsletter-field input{
+    width: 80%;
+}
+input[type="submit"]{
+    width: 100px;
+    margin:0 auto;
+}
+
+.recent-post {
+    padding:1rem;
+}
+.recent-post > h3{
+    padding:1rem 0;
+    color:#318c3d;
+}
+.recent-post > div > h4{
+    padding: .5rem 0;
+}
+.recent-post > div{
+    height: 150px
+}
+.recent-post a , .recent-post i {
+    color:#aaadaa;
+    font-size: small;
+    padding:4px;
+}
+/* Footer */
+.footer-nav{
+    background-color: #318c3d;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    margin-top: 8px;
+}
+.footer-nav-left > a{
+    color: white;
+    padding:1rem;
+    display: inline-block;
+}
+.footer-nav-right{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+.footer-nav-right, .footer-nav-right i{
+    color:white;
+    font-size: larger;
+}
+
+/* Bottom Footer */
+.footer{
+    background-color: #aaadaa;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+.footer > a{
+    font-size: larger;
+    text-decoration: underline;
+}
